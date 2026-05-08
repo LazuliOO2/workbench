@@ -1,7 +1,16 @@
-# Repositório de Projetos em Python
+# Workbench
 
-Este repositório reúne projetos desenvolvidos exclusivamente em Python.  
-Projetos que utilizam outras linguagens são armazenados em repositórios separados.
+Repositório de projetos voltados para:
+- Ciência de Dados
+- Machine Learning
+- ETL
+- Automação
+- Web Scraping
+- APIs
+- Dashboards
+- Interfaces Gráficas
+
+Os projetos utilizam diferentes linguagens e tecnologias, incluindo Python, Go e outras ferramentas do ecossistema de engenharia de software..
 
 ---
 
@@ -35,7 +44,7 @@ Projetos que utilizam outras linguagens são armazenados em repositórios separa
 ---
 
 ### portfolioAtivo
-**Descrição:** Desenvolvimento de algoritmos de aprendizado por reforço para mercado financeiro (A2C, PPO e PPO + GEN).
+**Descrição:** Desenvolvimento de algoritmos de aprendizado por reforço para mercado financeiro (A2C, PPO e PPO + GAE).
 
 ---
 

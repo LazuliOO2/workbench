@@ -1,5 +1,5 @@
 # 🧠 Sistema de Aprendizado por Reforço para Alocação de Portfólio  
-### A2C → PPO → PPO + GEN (GAE) • Pipeline completo de Treino/Teste
+### A2C → PPO → PPO + GAE • Pipeline completo de Treino/Teste
 ## ⚠️ Aviso Importante
 
 Antes de executar qualquer parte do projeto, **todos os arquivos `.ipynb` devem ser convertidos para o formato `.py`**.
@@ -21,7 +21,7 @@ Ele segue uma arquitetura modular dividida em:
 - Core de dados e lógica financeira  
 - Ambiente de simulação estilo OpenAI Gym  
 - Modelos Actor–Critic  
-- Treinos A2C, PPO e PPO+GEN (GAE)  
+- Treinos A2C, PPO e PPO + GAE  
 - Avaliação separada em dataset de teste  
 
 O objetivo é permitir que o agente aprenda a:
@@ -230,7 +230,7 @@ Serve como ambiente para:
 
 ---
 
-# 🚀 `train_ppo.py` — PPO (Semana 2) + PPO+GEN (Semana 3)
+# 🚀 `train_ppo.py` — PPO (Semana 2) + PPO+GAE (Semana 3)
 
 Este é o arquivo mais importante — o modelo final.
 
@@ -244,7 +244,7 @@ Primeira forma estável e efetiva de treinamento.
 
 ---
 
-## 🟣 Semana 3 — PPO + GEN (GAE)
+## 🟣 Semana 3 — PPO + GAE
 
 Modelo de produção:
 
@@ -276,7 +276,7 @@ Modelo de produção:
 
 ---
 
-## 3️⃣ PPO + GEN (GAE) — Modelo final
+## 3️⃣ PPO + GAE — Modelo final
 ✔ Suaviza vantagens  
 ✔ Melhor estabilidade  
 ✔ Melhor generalização  
@@ -296,7 +296,7 @@ python train_a2c.py
 python train_ppo.py
 ```
 
-## Semana 3 — PPO + GEN
+## Semana 3 — PPO + GAE
 Mesmo arquivo:
 ```sh
 python train_ppo.py
