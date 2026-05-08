@@ -21,7 +21,7 @@ Os projetos utilizam diferentes linguagens e tecnologias, incluindo Python, Go e
 
 ---
 
-### Web Scraping com Selenium
+### Web Scraping com Selenium Ticket Ações
 **Descrição:** Extração automatizada de dados de sites dinâmicos utilizando Selenium.
 
 ---
